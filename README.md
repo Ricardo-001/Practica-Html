@@ -1,7 +1,9 @@
 # Practica Html
 
-## Detalles de las tecnologías y herramientas utilizadas 
+## Tecnologías y herramientas utilizadas 
 - Html
+
+### Detalles
 
 Esta es una práctica de mis conocimientos en Html creando 3 formularios
 
