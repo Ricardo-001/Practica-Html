@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Prueba De Html</title>
+  </head>
+  <body>
+    <main>
+      <h1>Novell Services Login</h1>
+      <form action="#">
+        <fieldset>
+          <legend><b>Datos Del usuario</b></legend>
+
+          <div>
+            <label for="name">Username:</label>
+            <input type="text" name="NameUser" id="name"/>
+          </div>
+
+          <br/>
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="PasswordUser" id="password"/>
+          </div>
+
+          <br/>
+
+          <div>
+            <label for="city">City of Employment</label>
+            <input type="text" name="CityUser" id="city"/>
+          </div>
+
+          <br/>
+
+          <div>
+            <label for="server">Web Server</label>
+            <select name="options_server" id="server">
+              <option value="Exaple#1">Exaple#1</option>
+              <option value="Exaple#2">Exaple#2</option>
+              <option value="Exaple#3">Exaple#3</option>
+            </select>
+          </div>
+
+          <br/>
+
+          <div>
+            <label>Plase especify your role</label><br>
+            <input type="radio" name="Role" id="AdminUser"/>
+            <label for="AdminUser">Admin</label><br>
+            <input type="radio" name="Role" id="EngineerUser"/>
+            <label for="EngineerUser">Engineer</label><br>
+            <input type="radio" name="Role" id="ManagerUser"/>
+            <label for="ManagerUser">Manager</label><br>
+            <input type="radio" name="Role" id="RoleUser"/>
+            <label for="RoleUser">Role</label>
+          </div>
+
+          <br/>
+
+          <div>
+            <label>Single Sing-on to the following:</label><br>
+            <input type="checkbox" name="following" id="EmailFollowing"/>
+            <label for="EmailFollowing">Email</label><br>
+            <input type="checkbox" name="following" id="PayrollFollowing"/>
+            <label for="PayrollFollowing">Payroll</label><br>
+            <input type="checkbox" name="following" id="ServicesFollowing"/>
+            <label for="ServicesFollowing">Self Services</label>
+          </div>
+
+          <br/>
+
+          <div>
+            <input type="submit"/>
+            <input type="reset"/>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

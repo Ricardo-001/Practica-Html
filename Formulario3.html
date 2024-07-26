@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend><h1>Datos</h1></legend>
+        <div>
+          <label for="name"><b>Escriba su Nombre:</b></label>
+          <input type="text" name="NameUser" id="name" placeholder="Ricardo" />
+        </div>
+        <br />
+
+        <div>
+          <label for="surname"><b>Escriba su Apellido:</b></label>
+          <input
+            type="text"
+            name="NameUser"
+            id="surname"
+            placeholder="Antequera"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="email"><b>Escriba su Email:</b></label>
+          <input
+            type="text"
+            name="NameUser"
+            id="email"
+            placeholder="Correo@empresa.com"
+          />
+        </div>
+
+        <div>
+          <h2><b>Que valoracion le da a la pagina:</b></h2>
+
+          <label for="1"><b>1</b></label>
+          <input type="radio" name="ScoreUser" id="1" />
+
+          <label for="2"><b>2</b></label>
+          <input type="radio" name="ScoreUser" id="2" />
+
+          <label for="3"><b>3</b></label>
+          <input type="radio" name="ScoreUser" id="3" />
+
+          <label for="4"><b>4</b></label>
+          <input type="radio" name="ScoreUser" id="4" />
+
+          <label for="5"><b>5</b></label>
+          <input type="radio" name="ScoreUser" id="5" />
+        </div>
+
+        <div>
+          <h2><b>Que asignaturas has estudiado:</b></h2>
+
+          <label for="html">HTML</label>
+          <input type="checkbox" name="StudiedUser" id="html" />
+
+          <label for="css">CSS</label>
+          <input type="checkbox" name="StudiedUser" id="css" />
+
+          <label for="javascript">JavaScript</label>
+          <input type="checkbox" name="StudiedUser" id="javascript" />
+        </div>
+
+        <div>
+          <h2><b>Selecciona tu equipo ideal:</b></h2>
+          <select id="equipo" name="equipo" multiple size="5">
+            <option value="messi">Messi</option>
+            <option value="ronaldo">Cristiano Ronaldo</option>
+            <option value="ramos">Sergio Ramos</option>
+            <option value="chirinski">chirinski</option>
+            <option value="shevchenko">Shevchenko</option>
+          </select>
+        </div>
+
+        <div>
+            <label for="course"><h2>Que mejorarias de este curso:</h2></label>
+            <textarea name="CourseUser" id="course" rows="5" cols="60"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" name="send">
+        </div>
+
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba De Html</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend><b>MIS DATOS</b></legend>
+
+        <div>
+          <label for="Name">1. Nombre:</label>
+          <input
+            type="text"
+            name="NameUser"
+            id="Name"
+            placeholder="Escribe aqui tu nombre"
+          />
+        </div>
+
+        <div>
+          <label for="Email">2. Correo electronico:</label>
+          <input
+            type="email"
+            name="EmailUser"
+            id="Email"
+            placeholder="Ejemplo@dominio.com"
+          />
+        </div>
+
+        <div>
+          <label for="Tel">3. Telefono:</label>
+          <input
+            type="tel"
+            name="TelUser"
+            id="Tel"
+            placeholder="ej +46937283"
+          />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>DIRECCION</b></legend>
+
+        <div>
+          <label for="address">1. Direccion</label>
+          <textarea name="AddressUser" id="address"></textarea><br />
+        </div>
+
+        <div>
+          <label for="postal">2. Codigo postal</label>
+          <input type="text" name="PostalUser" id="postal" placeholder="CP" /><br />
+        </div>
+
+        <div>
+          <label for="city">3. Ciudad</label>
+          <input type="text" name="CityUser" id="city" placeholder="Ciudad" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>FORMAS DE PAGO</b></legend>
+
+        <span>1.</span>
+        <fieldset>
+          <legend><b>Tarjetas de credito</b></legend>
+
+          <div>
+            <span>°</span>
+            <input type="radio" name="CardUser" id="Visa" />
+            <label for="Visa">Visa</label><br />
+          </div>
+
+          <div>
+            <span>°</span>
+            <input type="radio" name="CardUser" id="American Express" />
+            <label for="American Express">American Express</label><br />
+          </div>
+
+          <div>
+            <span>°</span>
+            <input type="radio" name="CardUser" id="Master Card" />
+            <label for="Master Card">Master Card</label><br />
+          </div>
+        </fieldset>
+
+        <div>
+          <label for="numbercard">2. Numero de tarjeta</label>
+          <input type="number" name="NumberCardUser" id="numbercard" placeholder="numero de trajeta" /><br />
+        </div>
+
+        <div>
+          <label for="securitycode">3. Codigo de seguridad</label>
+          <input type="text" name="SecurityCodeUser" id="securitycode" placeholder="codigo de seguridad" /><br />
+        </div>
+
+        <div>
+          <label for="cardname">4. Nombre de tarjeta</label>
+          <input type="text" name="CardNameUser" id="cardname" placeholder="nombre exacto de tarjeta" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <input type="submit" name="Sale" value="Comprar" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
